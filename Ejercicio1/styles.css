@@ -3,45 +3,51 @@ body {
     margin: 0 0;
 }
 
-header {
-    margin: 15px 20px;
+.cabecera {
+    display: inline;
+    margin: 20px 10px;
 }
 
-.primerHeader {
+header {
     display: inline;
-    font-size: 0;
+}
+
+.primeraParte {
+    display: inline;
+    margin: 0 0;
 }
 
 .logo {
     width: 10%;
+    font-size: 0px;
 }
 
 .logo > img {
-    width: 10%;   
-}
-
-.navbar1 {
-    width: 60%;
+    width: 10%;
 }
 
 .navbar1 li {
-    color: white;
+    width: 50%;
     display: inline;
-    font-size: 15px;
     margin: 0 10px;
+    color: white;
 }
 
 .acciones {
-    width: 25%;
-    font-size: 15px;
+    display: inline;
+    width: 40%;
 }
 
-.acciones a {
-    color: white;
-}
-
-.acciones input {
+.buscador input{
+    width: 15%;
     background-color: #171717;
+    color: white;
     border-color: white;
-    height: 30px;
+}
+
+.sigin a {
+    width: 15%;
+    display: inline;
+    text-decoration: none;
+    color: white;
 }
