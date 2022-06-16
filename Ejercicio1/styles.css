@@ -4,50 +4,23 @@ body {
 }
 
 .cabecera {
-    display: inline;
     margin: 20px 10px;
 }
 
 header {
-    display: inline;
+    display: flex;
 }
 
 .primeraParte {
-    display: inline;
-    margin: 0 0;
-}
-
-.logo {
-    width: 10%;
-    font-size: 0px;
-}
-
-.logo > img {
-    width: 10%;
+    display: inline-flex;
 }
 
 .navbar1 li {
-    width: 50%;
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
     color: white;
 }
 
 .acciones {
-    display: inline;
-    width: 40%;
-}
-
-.buscador input{
-    width: 15%;
-    background-color: #171717;
-    color: white;
-    border-color: white;
-}
-
-.sigin a {
-    width: 15%;
-    display: inline;
-    text-decoration: none;
-    color: white;
+    display: inline-flex;
 }
