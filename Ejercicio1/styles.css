@@ -1,0 +1,47 @@
+body {
+    background-color: #171717;
+    margin: 0 0;
+}
+
+header {
+    margin: 15px 20px;
+}
+
+.primerHeader {
+    display: inline;
+    font-size: 0;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo > img {
+    width: 10%;   
+}
+
+.navbar1 {
+    width: 60%;
+}
+
+.navbar1 li {
+    color: white;
+    display: inline;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.acciones {
+    width: 25%;
+    font-size: 15px;
+}
+
+.acciones a {
+    color: white;
+}
+
+.acciones input {
+    background-color: #171717;
+    border-color: white;
+    height: 30px;
+}
