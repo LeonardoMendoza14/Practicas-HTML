@@ -1,4 +1,90 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans'
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* ------------------  Header -------------- */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #800080;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(350, 100%, 88%, 0.61), hsla(300, 100%, 25%, 0.61)), url(https://loremflickr.com/1920/1080/woman) no-repeat center;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(350, 100%, 88%, 0.61), hsla(300, 100%, 25%, 0.61)), url(https://loremflickr.com/1920/1080/woman);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.navbar {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+.navbar > a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    /* Letra mas gruesa */
+    font-weight: 700;
+}
+
+.navbar > a:hover {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+}
+
+.textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.textos-header h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
