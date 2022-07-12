@@ -1,0 +1,9 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.contenedor {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+}
